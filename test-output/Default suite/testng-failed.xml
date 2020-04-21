@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="assignment.Validate_month_in_FB">
+        <methods>
+          <include name="validateSortedTest"/>
+          <include name="validateAllContentTest"/>
+          <include name="validateDuplicateTest"/>
+        </methods>
+      </class> <!-- assignment.Validate_month_in_FB -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
